@@ -5,7 +5,7 @@ from ask_sdk_model import Response
 from ask_sdk_model.ui import PlayBehavior
 from ask_sdk_model.interfaces.audioplayer import PlayDirective, AudioItem, Stream
 
-RADIO_STREAM_URL = "https://your-radio-stream-url.com/stream.mp3"
+RADIO_STREAM_URL = "https://montecarlo.hostingradio.ru/montecarlo128.mp3"
 
 class LaunchRequestHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
